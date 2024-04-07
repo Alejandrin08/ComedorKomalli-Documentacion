@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-19" view-index="0" gantt-divider-location="613" resource-divider-location="300" version="3.3.3303" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="177" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="114" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="107" order="2"/>
+        <field id="tpd7" name="Progreso" width="58" order="3"/>
+        <field id="tpd12" name="Costo" width="141" order="4"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#dbc7f4 #999999 #d694dc #bcd7df #ebf1ac #92c3c2 #9999ff #eeeeee #8dcf6b #ffcccc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="206" order="0"/>
+        <field id="1" name="Función" width="90" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="0e510bb8987645778edb1748231e045f" name="Comedor Komalli" color="#ccccff" meeting="false" project="true" start="2024-02-08" duration="91" complete="42" thirdDate="2024-02-27" thirdDate-constraint="0" expand="true">
+            <task id="1" uid="aa9468cc834e4d3abd60cab59a405837" name="Análisis de requerimientos" color="#ffc000" meeting="false" start="2024-02-08" duration="16" complete="80" thirdDate="2024-02-27" thirdDate-constraint="0" expand="true">
+                <task id="9" uid="df992f6b425245fcadaed18bda590df5" name="Descripción de la problemática" color="#eee64c" meeting="false" start="2024-02-08" duration="1" complete="100" thirdDate="2024-02-27" thirdDate-constraint="0" expand="true"/>
+                <task id="5" uid="d411243ba787493f85307f6208177bd1" name="Entrevista" color="#eee64c" meeting="false" start="2024-02-16" duration="1" complete="100" thirdDate="2024-02-27" thirdDate-constraint="0" expand="true"/>
+                <task id="13" uid="49211fcea2084709865cce1b325c2e04" name="Requisitos funcionales y no funcionales" color="#eee64c" meeting="false" start="2024-02-21" duration="1" complete="100" thirdDate="2024-02-22" thirdDate-constraint="0" expand="true"/>
+                <task id="17" uid="d2e0d9bc8ba74ffb864a68acf493b857" name="Identificación de casos de uso" color="#eee64c" meeting="false" start="2024-02-27" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="19" uid="4188cdf8752f498ba2109fcf7d1bbec6" name="Diccionario de datos" color="#8cb6ce" meeting="false" start="2024-02-29" duration="1" complete="0" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="26" uid="816d2530851f4cc0aab56d8348e2656a" name="Diseño" color="#8cb6ce" meeting="false" start="2024-02-29" duration="3" complete="83" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true">
+                <task id="28" uid="2835288d11ab4280967b8eb792334a9a" name="Diagrama de casos de uso" color="#b6dfff" meeting="false" start="2024-02-29" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="35" uid="0e6997970d28455285cd190757db9548" name="Diagrama de despliegue" color="#b6dfff" meeting="false" start="2024-03-01" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="37" uid="4ffcec67587a4a7d8396ee3771534939" name="Diagrama de dominio" color="#b6dfff" meeting="false" start="2024-03-01" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="40" uid="52f2664324474c1c8627b13e9170d985" name="Diagrama de clases" color="#b6dfff" meeting="false" start="2024-03-01" duration="1" complete="75" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="42" uid="5aea04c3cb394ca0b6163a48188f46aa" name="Diagrama de paquetes" color="#b6dfff" meeting="false" start="2024-03-04" duration="1" complete="40" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="48" uid="bcf1224519474411b4a6114225b8076f" name="Construcción" color="#ff6666" meeting="false" start="2024-03-05" duration="5" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="false">
+                <task id="50" uid="522dcf25d52f43c09a2c77b10e8430c0" name="Definición del estandar" color="#8cb6ce" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="52" uid="f7b16c8ca3ba432f867065d445fbe584" name="Modelo relacional" color="#ff9999" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="54" uid="94673b7d0a7044179fe5b6f238425c6f" name="Creación de la base de datos" color="#ff9999" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="56" uid="8bee4ed612224f60bdb981ac3f4b658d" name="Creación de login" color="#ff9999" meeting="false" start="2024-03-06" duration="3" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true">
+                    <task id="58" uid="7d71046e9a5f4313a7af5f7ad4a95c00" name="Prototipo de alta fidelidad" color="#ffcccc" meeting="false" start="2024-03-06" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                    <task id="60" uid="301c2e6e232943df86ecbcaa3a16cfca" name="Codificación" color="#ffcccc" meeting="false" start="2024-03-07" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                    <task id="62" uid="e61a2a042c0f4d52827108bb30c91bd7" name="Pruebas de unidad" color="#ffcccc" meeting="false" start="2024-03-08" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="64" uid="9cc1bb16676643548685089cc8c131c9" name="Creación del menú" color="#ff9999" meeting="false" start="2024-03-08" duration="2" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true">
+                    <task id="66" uid="6db3d9fe603948398b4666f33c693122" name="Prototipo de alta fidelidad" color="#ffcccc" meeting="false" start="2024-03-08" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                    <task id="68" uid="7787a10a52cc4aab83cf0f591e01c32a" name="Codificación" color="#ffcccc" meeting="false" start="2024-03-11" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="70" uid="49361f3a898846c19cbb096ebfc17120" name="CU-01" color="#9999ff" meeting="false" start="2024-03-04" duration="6" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="false">
+                <task id="71" uid="16c6d81943484c71a985d99e29425559" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-04" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="75" uid="6da764adce2a4829928d64c22f3fb45e" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-04" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="76" uid="9bce1439540b40ec8d822ca70b67c945" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-15" thirdDate-constraint="0" expand="true"/>
+                <task id="81" uid="97fb538aeee54a5abc56d76c547edade" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+                <task id="83" uid="d0d9ab0896f44d339d26eaea2eb1b030" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-06" duration="1" complete="100" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+                <task id="84" uid="8bba86db23464007aa8550f8b7235144" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-11" duration="1" complete="100" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="97" uid="509ecda706c84a8694b853e911bd9fc1" name="CU-02" color="#9999ff" meeting="false" start="2024-03-04" duration="6" complete="66" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="132" uid="ce8693a560224d8eaa432f0ce4019a67" name="Prototipos de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="134" uid="5d51d81551954c39b029efad007844e6" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-04" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="136" uid="589759a236c649cab23c40500c4f97cd" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-27" thirdDate-constraint="0" expand="true"/>
+                <task id="141" uid="fd8ce395bfdc4391a209e050199e6c27" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="143" uid="2ea21fb11fa746ff88ffc69c1bc4ae95" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-06" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="121" uid="77390d83831b43a690db1bab8c1017f1" name="Pruebas unitarias" color="#8cb6ce" meeting="false" start="2024-03-11" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="99" uid="cc72d8815538485485fef74c2d8efb19" name="CU-03" color="#9999ff" meeting="false" start="2024-03-04" duration="6" complete="16" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="115" uid="cd08502ff11042be9cedae806b06160e" name="Prototipos de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-04" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="117" uid="c9e417fc1709497e97b70d39eca580bc" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-04" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="118" uid="5b61931659464765b051d0bc4db04bed" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="119" uid="d489c539ed374f91b76d6493334a25be" name="Diagrama de secuencia" color="#8cb6ce" meeting="false" start="2024-03-05" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="120" uid="22769fd178be4f88be1142fa87acb1f5" name="Codificación" color="#8cb6ce" meeting="false" start="2024-03-06" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="130" uid="292ea6411b3f4950947c725ff67e0fc4" name="Pruebas unitarias" color="#8cb6ce" meeting="false" start="2024-03-11" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="100" uid="874bf273c45c480a86a03008bebd4732" name="CU-04" color="#9999ff" meeting="false" start="2024-03-04" duration="6" complete="33" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="113" uid="f8bd57f31cb44e65a3735c48b1e567e7" name="Prototipos de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-04" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="145" uid="f6e5f9accb9642879c2e51a7d9f43fc6" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-04" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="147" uid="6d583fea7e5b4d12a72c847e2c0cb555" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="150" uid="006f6cd1885146fbb1896eeb1a13082a" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-05" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="152" uid="bb75eed9edfc45259c417aa59ea917a8" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-06" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="155" uid="a9dcf0870f0d43988fd3042a35931301" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-11" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="101" uid="20e1d4bbc8fb4cf58ec9160b6947d9b8" name="CU-05" color="#92c3c2" meeting="false" start="2024-03-13" duration="5" complete="100" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="160" uid="09b4019417154ddea22d61a23ef6589b" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="168" uid="e12a0d84a3c446ba8f5a58aac438c3bd" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="170" uid="4d880f339a7e408d9e02daa1cda67e35" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-14" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="172" uid="7c1751db3dd24a7c9733fa2c03b75c06" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-14" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="174" uid="1c6ebce5f3604b90abee262c1c751fbb" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-15" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="177" uid="2919c56b127f411c8c0bf7c284bfd309" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-19" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="103" uid="34ee1176a2cc4407b0bddba0fad22068" name="CU-06" color="#92c3c2" meeting="false" start="2024-03-13" duration="5" complete="66" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="159" uid="be1e546e95b344299f47fedd1d0c3679" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="191" uid="138651795ad647589c8f02c33e4a9f13" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="199" uid="2e878e1e5a6b4ea094849120db2cac7d" name="Diagrama de robustez" color="#8cb6ce" meeting="false" start="2024-03-14" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="206" uid="91781721af644ba088a3423fded3f576" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-14" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="208" uid="d4ea6ab6b06c4f24b356b709fd48424d" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-15" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="211" uid="207777ed1def4ee495d653b8e98f1547" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-19" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="104" uid="3e4d9a88440c4ea79a1c99d8fb27c82d" name="CU-07" color="#92c3c2" meeting="false" start="2024-03-13" duration="5" complete="16" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="162" uid="e4fe205ec16044e28d25cde39ee0f4e8" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="194" uid="72b4c518eb0941e5b2e29d067ca7e2b6" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="201" uid="08e619e085f84c369fbe39d4127d5791" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-14" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="214" uid="1c6144e493d64c25ab8c11bd864b814b" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-14" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="216" uid="e433b22a4f4d4055a9cd74905e52a8c1" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-15" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="217" uid="0d6e483e67654c46a6b86770ad3e6cb4" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-19" duration="1" complete="0" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="105" uid="fef9b1a6085146c38571b5cbecc56a0d" name="CU-08" color="#92c3c2" meeting="false" start="2024-03-13" duration="5" complete="100" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="163" uid="9928900d23a34f0995bdd4bd68f144fe" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="196" uid="9e6d217f4159417485e6fc741ece7263" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-13" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="204" uid="d276806437334bc4ac272b4fdfdbe6f7" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-14" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="221" uid="bb441b1a9a724e42b2357d3a9ddff11f" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-14" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="224" uid="74afc1cad636405b806a43d2ba3f683a" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-15" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="227" uid="9ce0b6b183374e458ac36fbd4e9f7ea3" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-19" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="106" uid="25444caf06244f8d94830718206dbe16" name="CU-09" color="#ebf1ac" meeting="false" start="2024-03-21" duration="5" complete="16" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="235" uid="2653894dd5744d789118ade5a1ab1d50" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="241" uid="285167b7b9ec4bcb9b5ea9cacebed36d" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="256" uid="f3211ab513474f57a6147f38a49f6540" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-22" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="250" uid="ffba5f9511ec4df7a34569d63d14941b" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-22" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="258" uid="c498631bc7bd482c8f854a9c13487d75" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-25" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="263" uid="a38097c58b914bd1a970cf3f34be33ce" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-27" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="107" uid="6be6f179c3bd48818523f84344453910" name="CU-10" color="#ebf1ac" meeting="false" start="2024-03-21" duration="5" complete="66" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="237" uid="530eaf5a9c604d4f95b5546328c34e2f" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="242" uid="2374d68d35294860b7380222c110d905" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="100" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="246" uid="d1e339d6ccd9475fa9a40687239d26de" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-22" duration="1" complete="100" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="251" uid="a238ea1f48d949daab57fed9ccef97fc" name="Diagrama de secuencia" color="#8cb6ce" meeting="false" start="2024-03-22" duration="1" complete="100" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="254" uid="1d9558f063b1422fb0e865a7132c0d82" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-25" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="264" uid="92e48b754f0d42d294cf1f8815850345" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-27" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="157" uid="102ae0643b8f41bd825fac329070f0ac" name="CU-11" color="#ebf1ac" meeting="false" start="2024-03-21" duration="5" complete="16" thirdDate="2024-02-09" thirdDate-constraint="0" expand="false">
+                <task id="238" uid="3a1dcabb48ba4956baa3726c45da7b18" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="243" uid="e4595af50ba0439a9b2c78cf7865aaaa" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="247" uid="d50bac5019714ed4b9317faf1a20c173" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-22" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="252" uid="da1db30ce6a148c6b2bc45af8025f207" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-22" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="260" uid="03fec02abe05496aa8edc097cdbee5f5" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-25" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="265" uid="93ed958ff4654218ad30627356223e00" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-27" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="229" uid="50a08ac7a72b46408cbdd31d61c32eb1" name="CU-12" color="#ebf1ac" meeting="false" start="2024-03-21" duration="5" complete="16" thirdDate="2024-02-09" thirdDate-constraint="0" expand="false">
+                <task id="240" uid="0b13b408d7574420ad95ccc8a4ba1701" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="100" thirdDate="2024-02-09" thirdDate-constraint="0" expand="true"/>
+                <task id="244" uid="7f47d4bfb5694dbfb7fe6727122160f8" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-21" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="248" uid="e5f8e9cc874f4aca9374d9f930ad912b" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-03-22" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="253" uid="ebb8e266a80e498a9688dc16844516b5" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-03-22" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="261" uid="547e101bd78545d0877ad68579d7ee7d" name="Codificación" color="#dbc7f4" meeting="false" start="2024-03-25" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+                <task id="266" uid="c5194368fe1e4bb095e09781756bcb2d" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-03-27" duration="1" complete="0" thirdDate="2024-02-19" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="299" uid="5d3446ac718d423d872de817cb2c9a3d" name="CU-13" color="#bcd7df" meeting="false" start="2024-03-29" duration="6" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="301" uid="0a331e6926dd493da4cce19e07a59da3" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="331" uid="a331be77ae864ace9952ac0fb06b9ff8" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="344" uid="47ed7fc033de4aaa9d16a564e7ee5cac" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="357" uid="7d4b0958d00f4b388a4542ce04069055" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="370" uid="9548d868658a4f8397ed2121fe7e8874" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-02" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="383" uid="fa4579fa493c4a8db4a3a8a5ed290d2e" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-05" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="298" uid="3bd19115819246218710b1b03e2c0793" name="CU-14" color="#bcd7df" meeting="false" start="2024-03-29" duration="6" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="302" uid="aafbc61c5e5145d0a83aa61217a97cd1" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="332" uid="ba2a5f4cc11d4ec7b406cf039c621c04" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="345" uid="c60e110956df46529acc21baeb2a9a64" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="358" uid="60c242984d3a4590aae14766c2f6bb80" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="371" uid="bd9660faaf564b81b967c4851d98f533" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-02" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="384" uid="8d33e098e9c341f3b982e05ab7436e3f" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-05" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="293" uid="d90536cdc76d4942b01ea301e980d525" name="CU-15" color="#bcd7df" meeting="false" start="2024-03-29" duration="6" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="303" uid="61def7434b9c4368a4c38b4042dcfb8e" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="333" uid="efed03299f584916b7a2a514d220821a" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="346" uid="4109ea57aee246b5baf5a2a01009324b" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="359" uid="740c9ca99ca94f19bf375810e39fb98f" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="372" uid="3ee91886f76c4a5791679fa54948199a" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-02" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="385" uid="43c4a6ac7f834785b8139188b7659b81" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-05" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="294" uid="708bac697bce4e61805df8dcacb4632a" name="CU-16" color="#bcd7df" meeting="false" start="2024-03-29" duration="6" complete="33" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="304" uid="7b5f0e69d6d5468ab7e20d5f893ba817" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="334" uid="fb43fb5cd99a4955a8d2e791b0d017ab" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-03-29" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="347" uid="145e32db9b3d4e5f942b01be4b5dfd9d" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="360" uid="8a92c46c25b1456388be1809188a692c" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-01" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="373" uid="ba11ac8dd3a64ae4ab1639c9f3d604ed" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-02" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="386" uid="9329d16b16614361b22608129e74f20e" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-05" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="308" uid="4f1489c85a494c7ea7acf26a9b4e0f0f" name="CU-17" color="#d694dc" meeting="false" start="2024-04-09" duration="5" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="309" uid="fb0f037179654912a0adb4bb4fe77117" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="335" uid="3d013caa181440f28ea6c273387b0a63" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="348" uid="f0df30208088466b84d4ddd7b7cfc01e" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="361" uid="3a0547cf648f4de9ba6323c349534b77" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="374" uid="e684b2b1b38944ccb35db7f63ad4c9da" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-11" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="387" uid="abd8a09d34ce4606a5283e99d4863764" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="307" uid="b430ff175e9a4cb09acccc37f0b31e96" name="CU-18" color="#d694dc" meeting="false" start="2024-04-09" duration="5" complete="66" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="311" uid="7de457a8331345c2aa42e001d5c048c4" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="336" uid="f6ace1bd05564d7bb4d8a47024693fca" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="349" uid="0bf7cab57ebc42359317277d75f9aa7b" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="362" uid="07ed7bad2a4540f1b9499556dd28f7da" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="375" uid="bc7f3fb6137c4108a06d6554ddee31ec" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-11" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="388" uid="2bdff895dce84de2882c9ba47b063595" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-15" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="306" uid="6cb23787633b4331969c18d042c8c3cd" name="CU-19" color="#d694dc" meeting="false" start="2024-04-09" duration="5" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="312" uid="236788e3d3cc440ab31d512bffb55d0a" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="337" uid="40a355b2a7ad4ee4a5b89fbfb5e00482" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="350" uid="3b6a28ef98664cc88b1b990a1d7ea8f3" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="363" uid="141a1f7b6c5440278540181a7a915a8a" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="376" uid="d19ad2321f7a4f679485f3ef91c44d3b" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-11" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="389" uid="bc9d228015b2410dbf8279ddde3871a2" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-15" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="305" uid="4756aebae06d40fcb8a1b7e53cb0c38a" name="CU-20" color="#d694dc" meeting="false" start="2024-04-09" duration="5" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="313" uid="46279b35422940fe8c3ee234973c6b2f" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="338" uid="87ee680a2f484cdd9833e26f2eef90d1" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-09" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="351" uid="7b8de4d8b56e45fa952c43c6d867e264" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="364" uid="929eebc085a04d20a658b0bfd27bfe51" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-10" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="377" uid="d0a2df7885cf45e98ecdcdb0b4edbfc6" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-11" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="390" uid="ee8d8bb84a014a32a073eecbd014fb53" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-15" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="321" uid="8ccfd833c40443618672ab1d3a2c8a67" name="CU-21" color="#999999" meeting="false" start="2024-04-17" duration="6" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="315" uid="8b903812c5924729af9afe35729f1cef" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="339" uid="a78d0f06a1de4ddc8a13f1630da240a3" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="352" uid="3fa039559e4c4bbea3be3bf3b767e124" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="365" uid="5e751d37990d42b493b0b0f821a1794d" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="378" uid="b58fc2b85a9b4caa95d7ebee0129746d" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-19" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="391" uid="947de6688fb64ba59e98d22adb46da2b" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-24" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="320" uid="b2d0acc962994f8f9ce91f5c0343f77a" name="CU-22" color="#999999" meeting="false" start="2024-04-17" duration="6" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="314" uid="e2bad2d5588f43d0b12266cc252c24b7" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="340" uid="06f20f426f1a4a11b36717cf5769bbca" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="353" uid="6ed991945ca7425ea4237acd3a910870" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="366" uid="2cd2fbab510b491eab4a8fd3d3b9a7a1" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="379" uid="d8b89a5fb19e43f682a513fa51edf505" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-19" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="392" uid="5a498cb927c340acbb3982f8acca6b7c" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-24" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="319" uid="ca176d7bc87e44a0ba3aa0fbd48de05e" name="CU-23" color="#999999" meeting="false" start="2024-04-17" duration="6" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="317" uid="ad2c6d06575c40c79ead922b92b887d2" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="341" uid="1eaedcf444404c20818abf25808ce958" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="354" uid="fc9ae7055b2e4606825e8b49d8fa6381" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="367" uid="ff6117288b3a4563a2468c1da083fe84" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="380" uid="303a94eeff414c9191268223ccb3651b" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-19" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="393" uid="9b07cd9ac0a7426e86775e11ca3cb228" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-24" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="318" uid="301b726b990c41a583e2c76215266ce3" name="CU-24" color="#999999" meeting="false" start="2024-04-17" duration="6" complete="16" thirdDate="2024-03-08" thirdDate-constraint="0" expand="false">
+                <task id="316" uid="7dcdc6293ea44d18a546506a80c57e95" name="Prototipo de alta fidelidad" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="100" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="342" uid="365d12fae17543da9d2ef48d043830ef" name="Descripción de caso de uso" color="#dbc7f4" meeting="false" start="2024-04-17" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="355" uid="d0db5490c4254dd383de08d9184860d8" name="Diagrama de robustez" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="368" uid="81f2c6b0bb4847ddb29aa03a6af4721e" name="Diagrama de secuencia" color="#dbc7f4" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="381" uid="def3d8d41dd643af8df4374d22520534" name="Codificación" color="#dbc7f4" meeting="false" start="2024-04-19" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+                <task id="394" uid="89e4d8b2bc284f09ae226f2f1f05f88f" name="Pruebas unitarias" color="#dbc7f4" meeting="false" start="2024-04-24" duration="1" complete="0" thirdDate="2024-03-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="395" uid="ccf4c43867c948fcbdd8ddf7c3a22d06" name="CU-25" meeting="false" start="2024-04-26" duration="3" complete="16" expand="false">
+                <task id="399" uid="99030a291c324eaea6be867bb095cc07" name="Prototipo de alta fidelidad" meeting="false" start="2024-04-26" duration="1" complete="100" expand="true"/>
+                <task id="400" uid="517a43d4aa7840ab8f7265b4701a9fa4" name="Descripción de caso de uso" meeting="false" start="2024-04-26" duration="1" complete="0" expand="true"/>
+                <task id="401" uid="994424d6c1de4edea3a6a2266ec8b87b" name="Diagrama de robustez" meeting="false" start="2024-04-29" duration="1" complete="0" expand="true"/>
+                <task id="402" uid="3fa11aa8ea3141b8b4a5325fd05575f6" name="Diagrama de secuencia" meeting="false" start="2024-04-29" duration="1" complete="0" expand="true"/>
+                <task id="403" uid="76fc65bd804c46f9b594fd89ac2c2250" name="Codificación" meeting="false" start="2024-04-29" duration="1" complete="0" expand="true"/>
+                <task id="404" uid="90f27af3891f4272a47e8cfa88c9662d" name="Pruebas unitarias" meeting="false" start="2024-04-30" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="396" uid="970b7338ad9f4050b6a643e44d745ed6" name="CU-26" meeting="false" start="2024-04-03" duration="24" complete="16" expand="false">
+                <task id="405" uid="f70b8d51aaa743bca9be603bbfd2f36c" name="Prototipo de alta fidelidad" meeting="false" start="2024-05-01" duration="1" complete="100" expand="true"/>
+                <task id="406" uid="3358b13b27c34fea88a9b75d6cecbea1" name="Descripción de caso de uso" meeting="false" start="2024-05-01" duration="1" complete="0" expand="true"/>
+                <task id="407" uid="bcd36e56e14e4720874f476c751ce6b2" name="Diagrama de robustez" meeting="false" start="2024-05-02" duration="1" complete="0" expand="true"/>
+                <task id="408" uid="743c913aeb5f4822ba51522d1a3c888c" name="Diagrama de secuencia" meeting="false" start="2024-05-02" duration="1" complete="0" expand="true"/>
+                <task id="409" uid="2049adc4cfe84025bd8ff95b878f34c8" name="Codificación" meeting="false" start="2024-04-03" duration="1" complete="0" expand="true"/>
+                <task id="410" uid="9681ebb69c644ec8831ddc8eb1f5567f" name="Pruebas unitarias" meeting="false" start="2024-05-06" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="397" uid="76217848a62e40958527b632705fadd4" name="CU-27" meeting="false" start="2024-04-08" duration="26" complete="16" expand="false">
+                <task id="411" uid="c6f69771288b4b17b40f77ea2a81185d" name="Prototipo de alta fidelidad" meeting="false" start="2024-05-07" duration="1" complete="100" expand="true"/>
+                <task id="412" uid="4b82f853236143c78c27ff1af1d087ec" name="Descripción de caso de uso" meeting="false" start="2024-05-07" duration="1" complete="0" expand="true"/>
+                <task id="413" uid="781cfb1a9779439a83fbc07099f7fbb5" name="Diagrama de robustez" meeting="false" start="2024-04-08" duration="1" complete="0" expand="true"/>
+                <task id="414" uid="a83288e56dda4c308c2099d54176378d" name="Diagrama de secuencia" meeting="false" start="2024-05-08" duration="1" complete="0" expand="true"/>
+                <task id="415" uid="ddb40581f99b468e95b1232e6ae1d894" name="Codificación" meeting="false" start="2024-05-09" duration="1" complete="0" expand="true"/>
+                <task id="416" uid="42983b16d2a84635a4aaaa0c43504999" name="Pruebas unitarias" meeting="false" start="2024-05-13" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="87" uid="218fffdb876a4822a0bf3b70d7d358e1" name="Pruebas de software" color="#8dcf6b" meeting="false" start="2024-06-03" duration="2" complete="0" thirdDate="2024-02-16" thirdDate-constraint="0" expand="false">
+                <task id="89" uid="286fab8622c84903b34447d8fa618e62" name="Plan de pruebas" color="#8cb6ce" meeting="false" start="2024-06-03" duration="1" complete="0" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+                <task id="91" uid="809b9c3b148544f49c39c29f77db1a25" name="Pruebas de integración" color="#eeeeee" meeting="false" start="2024-06-03" duration="1" complete="0" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+                <task id="93" uid="c53fb818c26d44b5b75fc4647e682400" name="Pruebas de sistema" color="#8cb6ce" meeting="false" start="2024-06-04" duration="1" complete="0" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="95" uid="88bf3dad2ef04e6fb961615a44a82d5f" name="Documentación del sistema" color="#8cb6ce" meeting="false" start="2024-06-12" duration="2" complete="40" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="4" name="Alejandro Sánchez Marín" function="SoftwareDevelopment:2" contacts="zS21013870@estudiantes.uv.mx" phone="">
+            <rate name="standard" value="93.5"/>
+        </resource>
+        <resource id="5" name="Ares Judda Rivera Soto " function="SoftwareDevelopment:2" contacts="zS21013852@estudiantes.uv.mx" phone="">
+            <rate name="standard" value="93.5"/>
+        </resource>
+        <resource id="6" name="Paloma Osiris Báez Lara" function="Default:1" contacts="zS21013871@estudiantes.uv.mx" phone="">
+            <rate name="standard" value="93.5"/>
+        </resource>
+        <resource id="7" name="Miriam Ramírez Zárate" function="SoftwareDevelopment:2" contacts="zS21013864@estudiantes.uv.mx" phone="">
+            <rate name="standard" value="93.5"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="105" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="294" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="305" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="319" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="318" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="95" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="107" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="395" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="163" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="196" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="204" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="221" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="224" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="227" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="237" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="242" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="246" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="251" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="254" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="264" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="334" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="304" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="347" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="360" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="373" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="386" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="313" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="338" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="351" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="364" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="377" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="390" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="317" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="341" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="354" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="367" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="380" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="393" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="316" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="342" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="355" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="368" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="381" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="394" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="399" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="400" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="401" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="402" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="403" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="404" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="101" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="160" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="168" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="170" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="172" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="174" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="177" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="103" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="159" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="191" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="199" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="206" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="208" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="211" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="104" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="162" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="194" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="201" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="214" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="216" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="217" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="299" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="298" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="293" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="95" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="396" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="301" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="331" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="344" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="357" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="370" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="383" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="302" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="332" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="345" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="358" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="371" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="384" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="303" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="333" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="346" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="359" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="372" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="385" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="405" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="406" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="407" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="408" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="409" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="410" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="5" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="71" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="81" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="83" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="84" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="97" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="100" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="132" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="134" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="141" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="143" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="121" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="115" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="117" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="118" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="119" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="120" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="130" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="145" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="147" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="152" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="321" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="320" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="91" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="93" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="64" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="68" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="315" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="339" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="352" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="365" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="378" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="391" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="314" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="340" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="353" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="366" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="379" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="392" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="106" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="229" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="308" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="307" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="95" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="397" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="235" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="241" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="256" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="250" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="258" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="263" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="238" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="243" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="247" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="252" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="260" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="265" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="240" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="244" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="248" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="253" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="261" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="266" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="309" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="348" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="361" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="374" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="387" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="311" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="336" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="349" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="362" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="375" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="388" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="411" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="412" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="413" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="414" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="415" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="416" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="7" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="306" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="312" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="337" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="350" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="363" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="376" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="389" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
